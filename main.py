@@ -33,7 +33,7 @@ def sudo_check(r,cell,digit):
     column_count=0
     for r in grid:
         if r[cell ] == digit:
-            column_count+=1 ####return here later, its likely that this can just be (return(False)), but check this version first
+            column_count+=1 
     if column_count == 0:
         column = True
     else:
